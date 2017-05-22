@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.martin.projectskola">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="ANDROID.PERMISSION.INTERNET"/>
+    <uses-permission android:name="ANDROID.PERMISSION.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBgH_CIysZjS8xDAevPloJU5WSk_PHA4jg"/>
+
+        <activity
+            android:name=".activity.MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.KontaktActivity"
+            android:label="@string/title_activity_kontakt"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.OAplikaciActivity"
+            android:label="@string/title_activity_o_aplikaci"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.PridatFotkuActivity"
+            android:label="@string/title_activity_pridat_fotku"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.PlaceListActivity"
+            android:label="@string/title_activity_seznam_fotek"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.SinglePlaceActivity"
+            android:label="@string/title_activity_detail_fotografie"
+            android:parentActivityName=".activity.PlaceListActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.StatistikaActivity"
+            android:label="@string/title_activity_statistika_fotografii"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

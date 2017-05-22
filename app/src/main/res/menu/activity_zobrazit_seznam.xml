@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.ZobrazitSeznamActivity">
+
+    <item android:id="@+id/menu_pridat_foto"
+        android:title="@string/menu_pridat_foto" />
+    <item android:id="@+id/menu_mapa_fotek"
+        android:title="@string/menu_mapa_fotek"/>
+    <item android:id="@+id/menu_kontakt"
+        android:title="@string/menu_kontakt"/>
+    <item android:id="@+id/menu_o_aplikaci"
+        android:title="@string/menu_o_aplikaci"/>
+    <item android:id="@+id/menu_statistika"
+        android:title="@string/menu_statistika"/>
+</menu>

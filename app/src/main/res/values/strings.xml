@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ProjectSkola</string>
+    <string name="title_activity_maps">Mapa fotek</string>
+    <string name="title_activity_kontakt">Kontakt</string>
+    <string name="title_activity_o_aplikaci">O aplikaci</string>
+    <string name="title_activity_pridat_fotku">Přidat fotografii</string>
+    <string name="title_activity_seznam_fotek">Seznam fotografií</string>
+    <string name="title_activity_detail_fotografie">Detail fotografie</string>
+    <string name="title_activity_statistika_fotografii">Statistika Fotografií</string>
+    <string name="menu_pridat_foto">Přidat fotku</string>
+    <string name="menu_zobrazit_seznam">Zobrazit seznam</string>
+    <string name="menu_o_aplikaci">O aplikaci</string>
+    <string name="menu_kontakt">Kontakt</string>
+    <string name="menu_mapa_fotek">Mapa fotek</string>
+    <string name="menu_statistika">Statistika</string>
+    <string name="btn_foto">Pořídit fotografiii</string>
+    <string name="photoDescription">Description</string>
+    <string name="photoTitle">Title</string>
+    <string name="btnAddPhoto">Přidat fotografiii</string>
+    <string name="btnShowListPhoto">Zobrazit Seznam fotek</string>
+    <string name="statistikaTOPLokality">Nejoblíbenější místa</string>
+    <string name="statistikaPrazdnePole">Nedostatek lokalit</string>
+    <string name="statistikaPocetFotek">Celkový počet fotek</string>
+    <string name="btnSdilet">Sdílet</string>
+    <string name="btnUpravit">Upravit</string>
+    <string name="btnSmazat">Smazat</string>
+    <string name="btnUlozitZmeny">Uložit změny</string>
+    <string name="kontakt">Martin Kulhánek\r\n
+    Třebihošť 207\r\n
+    544 01 Dvůr Králové nad Labem\r\n
+    Tel.: +420776553496\r\n
+    mail: martas207@seznam.cz</string>
+    <string name="oAplikaci">Aplikace byla vytvořena jako semestrální projekt na Univerzitě Hradec Králové.\r\n
+        Vytvoření se datuje do roku 2017, kdy ji vytvořil Martin Kulhánek.\r\n
+    Aplikace má sloužit pro sbírání zážitků po celém světě, kde zařízení bude zaměřeno pomocí GPS.\r\n
+    Využívání aplikace je bezplatné a věřím tomu, že časem se stane světovým fenoménem.</string>
+
+    <string-array name="typy_map_spinner">
+        <item>Normální</item>
+        <item>Satelitní</item>
+        <item>Hybridní</item>
+        <item>Terénní</item>
+    </string-array>
+
+</resources>

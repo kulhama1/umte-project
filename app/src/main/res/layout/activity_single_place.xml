@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/txtViewTitleSinglePlace"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/textViewDescriptionPlace"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scrollHorizontally="true"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/textViewDescriptionSinglePlace"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/textViewDescriptionPlace"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scrollHorizontally="true"
+        android:fontFamily="serif"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:gravity="center" />
+    <ImageView
+        android:id="@+id/imageViewSinglePlace"
+        android:layout_width="match_parent"
+        android:layout_height="415dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/common_full_open_on_phone" />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSinglePlaceSdilet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/btnSdilet" />
+
+        <Button
+            android:id="@+id/buttonSinglePlaceSmazat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/btnSmazat" />
+
+        <Button
+        android:id="@+id/buttonSinglePlaceUpravit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/btnUpravit" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="96dp"
+        android:layout_height="88dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageViewIkonkaFotky"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@mipmap/ic_launcher" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textViewTitleIcon"
+            android:layout_height="43dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/textViewDescriptionIcon"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_alignBottom="@+id/imageViewIkonkaFotky"
+            android:layout_alignLeft="@+id/textViewTitleIcon"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/textViewTitleIcon"
+            android:text="TextView"
+            android:layout_weight="0.38" />
+
+    </LinearLayout>
+
+</LinearLayout>
